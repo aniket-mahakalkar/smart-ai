@@ -130,7 +130,7 @@ def main():
                 st.success("Image saved! Sending to Gemini...")
 
                 image = Image.open(image_path)
-                api_key = "AIzaSyBZ6m7CmchPpMGGWIaovGLQ2g9eJj69Yg4"  # Replace with actual key
+                api_key = ""  # Replace with actual key
                 result = send_image_to_gemini(image, api_key)
                 st.write("🔍 Gemini Output:")
                 st.write(result)
