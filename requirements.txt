@@ -1,0 +1,15 @@
+streamlit
+Pillow
+google.generativeai
+mediapipe
+numpy
+opencv-python
+pypdf
+pypdf2
+langchain
+python-dotenv
+faiss-cpu
+huggingface_hub
+google-generativeai
+langchain-community
+langchain-google-genai
