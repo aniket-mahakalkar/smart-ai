@@ -208,7 +208,7 @@ def send_image_to_gemini(image, api_key):
         return f"Error contacting Gemini API: {e}"
 
 def main():
-    st.set_page_config(page_title="Virtual Calculator", layout="centered")
+    # st.set_page_config(page_title="Virtual Calculator", layout="centered")
     st.title("✍️ Virtual Calculator with Gemini AI")
     st.image("Gemini AI.jpg")
 
